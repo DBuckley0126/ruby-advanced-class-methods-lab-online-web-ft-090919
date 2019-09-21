@@ -43,7 +43,7 @@ class Song
   end
 
   def self.new_from_filename (arg)
-    obj = self.new
+    obj = self.create
     artis_name = arg.match(/\b[^"-]*/)
     song_name = arg.match(/- [a-zA-Z\s]+/)
     #binding.pry
