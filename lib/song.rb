@@ -47,9 +47,8 @@ class Song
     artist_name = arg.match(/\b[^"-]*/)
     song_name = arg.match(/- [a-zA-Z\s]+/)
     binding.pry
-    self.artist_name = "hi"
-    #artist_name[0..-2]
-    self.name = song_name[2..-1]
+    @artist_name = artist_name[0..-2]
+    @name = song_name[2..-1]
 
   end
 
