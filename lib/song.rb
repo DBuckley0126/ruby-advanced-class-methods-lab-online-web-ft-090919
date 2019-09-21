@@ -48,9 +48,9 @@ class Song
     song_name = arg.match(/- [a-zA-Z\s]+/).to_s[2..-1]
     binding.pry
     obj.artist_name = artis_name
-    
+
     obj.name = song_name
-    
+
 
   end
 
