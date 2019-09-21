@@ -46,7 +46,7 @@ class Song
     obj = self.create
     artis_name = arg.match(/\b[^"-]*/)
     song_name = arg.match(/- [a-zA-Z\s]+/)
-    #binding.pry
+    binding.pry
     obj.artist_name = artis_name
     #[0..-2]
     obj.name = song_name
